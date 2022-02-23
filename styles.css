@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+.search-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 20px;
+    position: fixed;
+    margin-left: 1000px;
+    
+    
+    
+}
+.search-area .search{
+    padding-right: 15px;
+}
+.input input{
+    width: 100px;
+    border: none;
+    outline: none;
+   
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    border-radius: 20px;
+    background-color: white;
+    width: 20px;
+    margin-left: 25px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 2px 2px 10px rgba(17, 16, 16, 0.774);
+    
+}
+.fa-facebook-f:hover{
+    color: rgb(49, 49, 233);
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: brown;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-brands{
+    padding: 20px 20px;
+    
+}
+.poster{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.girl-img img{
+    width: 550px;
+}
+
+.poster-text{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.letter{
+    letter-spacing: 15px;
+}
+.color{
+    color: rgba(43, 55, 230, 0.883);
+}
+.poster-text button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.poster-text button:hover{
+    background-color: rgba(43, 55, 230, 0.883);
+}
+.Bags{
+    background-color: white;
+    border-radius:10px;
+    margin: 30px 80px;
+}
+.Bags h2{
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px 0px;
+}
+.bag-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.bag{
+    padding: 30px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bag h3{
+    color: gray;
+}
+.bag button{
+    background-color: rgba(43, 55, 230, 0.883);
+    padding: 5px 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    display: none;
+    margin-top: 15px;
+}
+.bag:hover button{
+    display: block;
+    
+}
+.bag:hover{
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(15, 14, 14, 0.952);
+    border-radius: 20px;
+    transition: ease-in-out 0.2s;
+}
+.bag img{
+    width: 230px;
+   
+}
+.company-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 120px
+}
+.company h2{
+    font-size:3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.company p{
+    font-size: 2rem;
+}
+.company small{
+    color: gray;
+}
+.company-img img{
+    width: 500px;
+
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 0px;
+}
+.subscribe h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px 10px;
+    width: 600px;
+}
+.email input{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.email button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 30px 0px;
+    word-spacing: 5px;
+}
+
+/* .bag h3{
+   padding-left: 20px;
+   color: gray;
+}
+.bag p{
+    padding-left: 130px;
+} */
