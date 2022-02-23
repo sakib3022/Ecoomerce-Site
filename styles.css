@@ -215,10 +215,72 @@ body{
     word-spacing: 5px;
 }
 
-/* .bag h3{
-   padding-left: 20px;
-   color: gray;
+@media screen and (max-width:688px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    .search-area{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .poster{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+   
+    .letter{
+        letter-spacing: 15px;
+    }
+    .poster-text{
+        font-size: 20px;
+    }
+    .girl-img img{
+        width: 250px;
+    }
+    .links,.fa-brands{
+        display: none;
+    }
+    
+    .Bags h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0px 0px;
+    }
+    .bag-collection{
+        display: flex;
+        flex-direction: column;
+    }
+    .bag{
+        padding: 0px 0px;
+    }
+    .company-details{
+        flex-direction: column;
+    }
+    .company-img img{
+        width: 250px;
+    }
+    .subscribe{
+        padding: 0px 0px;
+    }
+    .subscribe h2{
+        font-size: 1rem;
+    }
+    .email{
+        padding: 5px 5px;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .email input{
+        padding: 5px 5px;
+    }
+    .email button{
+        padding: 5px 10px;
+    }
+    .footer{
+        width: auto;
+        
+    }
 }
-.bag p{
-    padding-left: 130px;
-} */
